@@ -1,0 +1,106 @@
+body {
+    background-color: lightgreen;
+}
+
+#game {
+    position: relative;
+    height: 385px;
+    background: url("https://i.stack.imgur.com/WHu9Z.png") repeat-x;
+    border: 5px double black;
+    display: none;
+    margin-left: -13px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    display: none;
+}
+
+.character {
+    width: 100px;
+    height: 70px;
+}
+
+.characterSection {
+    display: flex;
+    justify-content: space-between;
+}
+
+#character1 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 50px;
+}
+
+#character2 {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 40px;
+    right: 0px;
+}
+
+#wall {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 57px;
+    right: 450px;
+}
+
+
+#portal {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    bottom: 57px;
+    right: 450px;
+}
+
+#level {
+    text-align: center;
+    font-size: 25px;
+    display: none;
+    position: relative;
+    top: 10px;
+}
+
+#start {
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: block;
+    margin: 20px auto;
+    top: 55%;
+    left: 46%;
+}
+
+#boss {
+    position: absolute;
+    right: 0px;
+    bottom: -10px;
+}
+
+.ending {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.ending img {
+    width: 1000px;
+}
+
+.minions {
+    position: relative;
+    margin-right: 385px;
+}
+
+.minions img {
+    width: 0.1px;
+}
